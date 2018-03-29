@@ -19,12 +19,8 @@
       "type": "string",
       "label": "License",
       "default": "MIT"
-    },
-    "sass": {
-       "type": "confirm",
-       "message": "Use sass?",
-       "default": false
     }
   },
-  "completeMessage": "{{#inPlace}}To get started:\n\n  yarn\n  yarn dev{{else}}To get started:\n\n  cd {{destDirName}}\n  yarn\n  yarn dev{{/inPlace}}"
+  "completeMessage": "{{#inPlace}}To get started:\n\n  yarn install\n  yarn dev{{else}}To get started:\n\n  cd {{destDirName}}\n  yarn install\n  yarn dev{{/inPlace}}"
 }
+
